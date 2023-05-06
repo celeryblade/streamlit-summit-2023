@@ -30,5 +30,3 @@ def load_data(table_name):
 
 # Select and display data table
 table_name = "US_ZIP_CODE_METADATA__POPULATIONS_GEO_CENTROID_LATLNG_CITY_NAMES_STATE_DMA_DEMOGRAPHICS.ZIP_DEMOGRAPHICS.ZIP_CODE_METADATA"
-
-cur = session.cursor()
