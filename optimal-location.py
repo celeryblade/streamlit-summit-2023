@@ -8,6 +8,7 @@ st.title('Optimal store locations based on population')
 #=========================================================
 
 # Establish Snowflake session
+@st.cache_data
 def create_session():
     return Session.builder.configs(st.secrets.snowflake).create()
 
