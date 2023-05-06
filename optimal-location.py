@@ -16,7 +16,6 @@ session = create_session()
 st.success("Connected to Snowflake!")
 
 # Load data table
-@st.cache_data
 def load_data(table_name):
     ## Read in data table
     st.write(f"Here's some example data from `{table_name}`:")
